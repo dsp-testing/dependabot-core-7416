@@ -8,6 +8,8 @@ updates:
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/etc/php-fpm"
     rebase-strategy: disabled
+    schedule:
+      interval: "weekly"
     ignore:
       - dependency-name: php
         versions: [">= 8.3.0"]
