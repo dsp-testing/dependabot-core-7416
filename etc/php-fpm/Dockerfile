@@ -1,1 +1,1 @@
-FROM php:8.2.8-fpm-bullseye
+FROM php:8.2.27-fpm-bullseye
